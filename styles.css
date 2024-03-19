@@ -1,21 +1,20 @@
 #holder{
-display: grid;
-width:200px ;
-height: 200px;
-grid-template-columns:repeat(2,200px) ;
-grid-template-rows: repeat(2,200px)  ;
-
-
+    display: grid;
+    width:200px;
+    height: 200px;
+    grid-template-columns:repeat(2, 100px);
+    grid-template-rows: repeat(2, 100px);
+    border: 2px solid black;
 }
+
 .red{
-background-color: red;
+    background-color: red;
 }
+
 .blue{
-background-color: blue;
+    background-color: blue;
 }
+
 .yellow{
     background-color: yellow;
-}
-.green{
-    background-color: green;
 }
