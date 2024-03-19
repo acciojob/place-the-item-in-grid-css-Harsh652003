@@ -1,2 +1,22 @@
 
-/* Your CSS Code here. */
+#holder{
+display: grid;
+width:400px ;
+height: 400px;
+grid-template-columns:repeat(2,200px) ;
+grid-template-rows: repeat(2,200px)  ;
+
+border: 2px solid black;
+}
+.red{
+background-color: red;
+}
+.blue{
+background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
